@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ec2-user/projeto_alex_python"
+set -gx VIRTUAL_ENV "/home/ec2-user/PythonCopys"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(projeto_alex_python) "            
-            printf "%s%s" "(projeto_alex_python) " (set_color normal)
+        if test -n "(PythonCopys) "            
+            printf "%s%s" "(PythonCopys) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")
